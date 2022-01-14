@@ -1,0 +1,46 @@
+[debug] [2022-01-14T16:24:01.862Z] ----------------------------------------------------------------------
+[debug] [2022-01-14T16:24:01.865Z] Command:       /home/tigerdev/.nvm/versions/node/v14.15.0/bin/node /home/tigerdev/.nvm/versions/node/v14.15.0/bin/firebase init
+[debug] [2022-01-14T16:24:01.865Z] CLI Version:   10.0.1
+[debug] [2022-01-14T16:24:01.866Z] Platform:      linux
+[debug] [2022-01-14T16:24:01.866Z] Node Version:  v14.15.0
+[debug] [2022-01-14T16:24:01.945Z] Time:          Fri Jan 14 2022 08:24:01 GMT-0800 (Pacific Standard Time)
+[debug] [2022-01-14T16:24:01.946Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-14T16:24:01.959Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-01-14T16:24:02.024Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-01-14T16:24:02.025Z] > authorizing via signed-in user (riverstar1992@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/tigerdev/Desktop/Works/TailWindCSS/cra-template-antd-admin/fitshipper
+
+[debug] [2022-01-14T16:24:03.835Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-01-14T16:24:03.837Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-01-14T16:24:12.740Z] > refreshing access token with scopes: []
+[debug] [2022-01-14T16:24:12.742Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-01-14T16:24:15.213Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Fri, 14 Jan 2022 16:24:09 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-01-14T16:24:15.220Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-01-14T16:24:17.098Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-01-14T16:24:17.099Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project fitshipper (fitshipper) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
